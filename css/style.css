@@ -1,0 +1,47 @@
+* {
+	padding: 0;   
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#main {
+	background-color:#FFE7C;
+	margin: 0 auto;
+	padding: 0 0.6rem;
+}
+
+#hBig {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#hSmall {
+	font-size: 20px;
+}
+
+p {
+	color: #15151B;
+}
+
+#suckessLink {
+	text-align:center;
+	color:#526953;
+}
+
+#saturnImage {
+	text-align:center;
+}
+
+a:active {
+	color: #526953;
+}
+
+a:visited {
+	color: #526953;
+}
+
+a:hover {
+	color: #FFDFD3;
+	background: #526953;
+}
