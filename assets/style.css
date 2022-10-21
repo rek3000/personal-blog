@@ -10,7 +10,8 @@
 	margin: 0;
 	background-color: var(--bg-def);
 	box-sizing: border-box;
-	font-size: 100%;
+	font-size: 102%;
+
 }
 
 p {
@@ -38,8 +39,13 @@ a:hover {
 }
 
 #main {
-	padding: 0 0.6rem;
+	padding: 0 2rem;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+	width: 100%;
+	max-width: 768px;
 }
+
 
 /* 
 * ---------------------
@@ -133,7 +139,18 @@ a:hover {
 .time-year {
 	font-weight: bold;
 	padding-right: 0.8rem;
+}
 
+.title {
+	margin-bottom: 0.8rem;
+	text-align: justify;
+	hyphens: auto;
+}
+#title-2 p{
+	text-indent: 0.5rem;
+}
+#title-3 p{
+	text-indent: 0.5rem;
 }
 
 /* 
