@@ -1,6 +1,7 @@
 :root {
 	--bg-def: #FFE7CC;
 	--fg-def: #15151B;
+  --link-def: #526953
 }
 
 * {
@@ -21,14 +22,14 @@ p {
 * LINKS
 * */
 a:active {
-	color: #526953;
+	color: var(--link-def);
 }
 a:visited {
-	color: #526953;
+	color: var(--link-def);
 }
 a:hover {
-	color: #FFDFD3;
-	background: #526953;
+	color: var(--bg-def);
+	background: var(--link-def);
 }
 
 #main {
@@ -80,7 +81,10 @@ a:hover {
 * */
 
 #saturnImage {
-	text-align: left;
+	text-align: center;
+  padding: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
 
 }
 #saturnImage > img{
@@ -98,17 +102,18 @@ footer {
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
+  padding: 0.5rem;
+  padding-left: 0;
 }
 
+#foot-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 #social {
 	list-style-type: none;
 }
 #social > li > a{
 	text-decoration: none!important;
 }
-
-.foot-text {
-	font-size: 0.8rem;
-}
-
 
