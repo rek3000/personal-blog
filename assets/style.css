@@ -30,6 +30,8 @@ a:visited {
 a:hover {
 	color: var(--bg-def);
 	background: var(--link-def);
+	border: 3px solid var(--link-def);
+	border-radius: 0.6rem;
 }
 
 #main {
@@ -114,13 +116,21 @@ a:hover {
 	width: 50%;
 	max-width: 400px;
 	height: auto;
+	border: auto solid var(--bg-blue);
+	border-radius: 0.6rem;
 }
 #greeting > p{
 	text-align: center;
-	border: auto solid var(--bg-blue);
 	background-color: var(--bg-blue);
-	border-radius: 0.2rem;
+	border: auto solid var(--bg-blue);
+	border-radius: 0.6rem;
 	padding: 0.2rem 2rem ;
+}
+
+.time-year {
+	font-weight: bold;
+	padding-right: 0.8rem;
+
 }
 
 /* 
@@ -145,6 +155,9 @@ footer {
 	list-style-type: none;
 }
 
+#social > li {
+	padding-bottom: 0.6rem;
+}
 #social > li > a{
 	text-decoration: none!important;
 }
