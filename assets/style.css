@@ -1,16 +1,16 @@
 :root {
 	--bg-def: #FFE7CC;
 	--fg-def: #15151B;
-  --link-def: #526953
+  --link-def: #526953;
+	--bg-blue: #6290ae;
 }
 
 * {
 	padding: 0;   
 	margin: 0;
-	box-sizing: border-box;
 	background-color: var(--bg-def);
+	box-sizing: border-box;
 	font-size: 100%;
-
 }
 
 p {
@@ -59,7 +59,7 @@ a:hover {
 	border: 2px solid var(--fg-def);
 	border-left: 0;
 	border-right: 0;
-	margin: 0.8rem auto 1rem auto;
+	margin: 0.8rem auto 0.8rem auto;
 }
 
 #navbar > li {
@@ -80,19 +80,40 @@ a:hover {
 * CONTENT
 * */
 
-#saturnImage {
+/* ---- IMAGE ---- */
+.image {
 	text-align: center;
   padding: 0.5rem;
   padding-left: 0;
   padding-right: 0;
 
 }
-#saturnImage > img{
+
+#saturn-img {
+	text-align: center;
+}
+#saturn-img > img{
 	width: 100%;
 	max-width: 400px;
 	height: auto;
 }
 
+#yutaka-img {
+	text-align: center;
+}
+#yutaka-img > img{
+	width: 50%;
+	max-width: 400px;
+	height: auto;
+}
+#greeting {
+	text-align: center;
+}
+#greeting span{
+	background-color: var(--bg-blue);
+	padding: 0.2rem 2rem;
+	border-radius: 0.2rem;
+}
 /* 
 * ---------------------
 * FOOTER
@@ -104,6 +125,7 @@ footer {
 	border-bottom: 0;
   padding: 0.5rem;
   padding-left: 0;
+	margin: 0.8rem auto 0.8rem auto;
 }
 
 #foot-title {
@@ -113,6 +135,7 @@ footer {
 #social {
 	list-style-type: none;
 }
+
 #social > li > a{
 	text-decoration: none!important;
 }
