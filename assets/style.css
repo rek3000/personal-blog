@@ -40,16 +40,23 @@ a:hover {
 * ---------------------
 * HEADER
 * */
-#site-name {
+.head-name {
 	font-size: 1.5rem;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
 
-#site-subtitle {
+.head-subtitle {
 	font-size: 1.0rem;
 	font-weight: normal;
 }
+
+.head-sub-subtitle {
+	font-size: 1.2rem;
+	margin-right: 90%;
+	text-decoration: underline 0.1rem;
+}
+
 
 /* 
 * ---------------------
@@ -79,7 +86,9 @@ a:hover {
 * ---------------------
 * CONTENT
 * */
-
+.content {
+	padding: 0rem 2rem;
+}
 /* ---- IMAGE ---- */
 .image {
 	text-align: center;
@@ -106,14 +115,14 @@ a:hover {
 	max-width: 400px;
 	height: auto;
 }
-#greeting {
+#greeting > p{
 	text-align: center;
-}
-#greeting span{
+	border: auto solid var(--bg-blue);
 	background-color: var(--bg-blue);
-	padding: 0.2rem 2rem;
 	border-radius: 0.2rem;
+	padding: 0.2rem 2rem ;
 }
+
 /* 
 * ---------------------
 * FOOTER
