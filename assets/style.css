@@ -102,40 +102,47 @@ a:hover {
 }
 /* ---- IMAGE ---- */
 .image {
-	text-align: center;
   padding: 0.5rem;
   padding-left: 0;
   padding-right: 0;
-
 }
 
-#saturn-img {
-	text-align: center;
+.greeting {
+	display: grid;
+	grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, 18rem);
+  grid-template-rows: repeat(2, auto);
 }
-#saturn-img > img{
+#greet-img > img{
 	width: 100%;
-	max-width: 400px;
-	height: auto;
-}
-
-#yutaka-img {
-	text-align: center;
-}
-#yutaka-img > img{
-	width: 50%;
-	max-width: 400px;
 	height: auto;
 	border: auto solid var(--bg-blue);
 	border-radius: 0.6rem;
-}
-#greeting > p{
-	text-align: center;
-	background-color: var(--bg-blue);
-	border: auto solid var(--bg-blue);
-	border-radius: 0.6rem;
-	padding: 0.2rem 2rem ;
+	/* margin-top: 2rem; */
+	margin-left: 1rem;
 }
 
+#greet-title  p{
+	text-align: left;
+	width: 100%;
+	max-width: 200px;
+	/* background-color: var(--bg-blue);
+	border: auto solid var(--bg-blue);
+	border-radius: 0.6rem;
+	padding: 0.2rem 2rem; */
+	margin: 0rem;
+}
+
+#greet-subtitle {
+	text-decoration: none;
+	width: 100%;
+	max-height: auto;
+	margin: 0rem;
+}
+
+#greet-subtitle > p{
+	font-size: 0.8em;
+}
 .time-year {
 	font-weight: bold;
 	padding-right: 0.8rem;
