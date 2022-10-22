@@ -109,17 +109,15 @@ a:hover {
 
 .greeting {
 	display: grid;
-	grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, 18rem);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(1, auto);
 }
+
 #greet-img > img{
 	width: 100%;
 	height: auto;
 	border: auto solid var(--bg-blue);
 	border-radius: 0.6rem;
-	/* margin-top: 2rem; */
-	margin-left: 1rem;
 }
 
 #greet-title  p{
@@ -128,15 +126,15 @@ a:hover {
 	max-width: 200px;
 	/* background-color: var(--bg-blue);
 	border: auto solid var(--bg-blue);
-	border-radius: 0.6rem;
-	padding: 0.2rem 2rem; */
+	border-radius: 0.6rem; */
 	margin: 0rem;
 }
 
 #greet-subtitle {
+	text-align: center;
 	text-decoration: none;
-	width: 100%;
-	max-height: auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	margin: 0rem;
 }
 
