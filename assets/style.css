@@ -1,17 +1,18 @@
 :root {
 	--bg-def: #FFE7CC;
 	--fg-def: #15151B;
-  --link-def: #526953;
+  	--link-def: #526953;
 	--bg-blue: #6290ae;
 }
 
+
 * {
+	font-family: 'Iosevka Web';
 	padding: 0;   
 	margin: 0;
 	background-color: var(--bg-def);
 	box-sizing: border-box;
 	font-size: 102%;
-
 }
 
 p {
@@ -110,43 +111,47 @@ a:hover {
 }
 
 .greeting {
-	display: grid;
   grid-template-columns: repeat(auto-fit, 18rem);
   grid-template-rows: repeat(1, auto);
 }
 
+#greet-img {
+	text-align: center;
+}
 #greet-img > img{
+  	padding: 0rem;
 	width: 100%;
-	max-width: 250px;
+	max-width: 20rem;
 	height: auto;
 	border: auto solid var(--bg-blue);
 	border-radius: 0.6rem;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+#greet-title {
+	text-align: center;
+}
 #greet-title  p{
+	text-align: center;
 	text-decoration: underline 0.1rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
-	text-align: left;
 	width: 100%;
-	max-width: 15rem;
-	/* background-color: var(--bg-blue);
+	background-color: var(--bg-blue);
 	border: 4px solid var(--bg-blue);
-	border-radius: 0.6rem; */
+	border-radius: 0.6rem;
 	margin: 0rem;
 }
 
 #greet-subtitle {
-	max-width: 15rem;
 	text-align: center;
-	text-decoration: none;
-	padding-top: 1rem;
+	padding-top: 0.5rem;
 	padding-bottom: 1rem;
 	margin: 0rem;
 }
 
 #greet-subtitle > p{
+	background-color: var(--bg-def);
+	border: none;
 	color: var(--fg-def);
 	font-weight: normal;
 	font-size: 0.8em;
@@ -199,6 +204,15 @@ a:hover {
 
 #things-1 > p > a{
 	text-decoration: none!important;
+}
+
+#things-2 > p {
+	border: 1px solid var(--fg-def);
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	padding-top: 1rem;
+
 }
 #things-2 > p > a{
 	text-decoration: none!important;
