@@ -2,7 +2,7 @@
 	--bg-def: #FFE7CC;
 	--fg-def: #15151B;
   	--link-def: #526953;
-	--bg-blue: #6290ae;
+	--bg-title: #C8DBBE;
 }
 
 
@@ -64,7 +64,8 @@ a:hover {
 }
 
 .head-sub-subtitle {
-	font-size: 1.2rem;
+	margin-bottom: 0.1rem;
+	font-size: 1.3rem;
 	text-decoration: underline 0.1rem;
 }
 
@@ -74,10 +75,10 @@ a:hover {
 * NAVIGATION
 * */
 #navbar {
-	border: 2px solid var(--fg-def);
+	border: 3px solid var(--fg-def);
 	border-left: 0;
 	border-right: 0;
-	margin: 0.8rem auto 0.8rem auto;
+	margin: 0.2rem auto 0.2rem auto;
 }
 
 #navbar > li {
@@ -86,6 +87,7 @@ a:hover {
 	padding-left: 0;
 	margin-left: 0rem;
 	margin-right: 1rem;
+	font-size: auto;
 }
 
 #navbar > li > a {
@@ -123,7 +125,7 @@ a:hover {
 	width: 100%;
 	max-width: 20rem;
 	height: auto;
-	border: 0 solid var(--bg-blue);
+	border: 0 solid var(--bg-title);
 	border-radius: 0.6rem;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -136,8 +138,8 @@ a:hover {
 	font-size: 1.5rem;
 	font-weight: bold;
 	width: 100%;
-	background-color: var(--bg-blue);
-	border: 4px solid var(--bg-blue);
+	background-color: var(--bg-title);
+	border: 4px solid var(--bg-title);
 	border-radius: 0.6rem;
 	margin: 0rem;
 }
@@ -190,7 +192,7 @@ a:hover {
 #things-1 video{
 	width: 100%;
 	height: auto;
-	border: 0 solid var(--bg-blue);
+	border: 0 solid var(--bg-title);
 	border-radius: 0.6rem;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -234,7 +236,7 @@ a:hover {
 * FOOTER
 * */
 footer {
-	border: 2px solid var(--fg-def);
+	border: 3px solid var(--fg-def);
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
